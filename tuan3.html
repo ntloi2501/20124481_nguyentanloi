@@ -1,0 +1,1296 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* bài 2 và bài 3, em sử dụng inline css */
+     /* CSS bài 4 */
+         table {
+  border-collapse: collapse;
+  width: 100;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+        #first{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 0px 10px yellow;
+
+        }
+        #second {
+            height: auto;
+            width: fit-content;
+            background-color: aquamarine;
+            color: darkblue;
+        }
+        #third{
+            color: #151315;
+
+            text-shadow: 0px -20px 1px #77325a
+        }
+        }
+        #four{
+            color: yellowgreen;
+            text-shadow: 2px 0px 10px yellow;
+        }
+        #five {
+            height: auto;
+            width: fit-content;
+            background-color: #151315;
+            color: rgb(145, 145, 40);
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);;
+        }
+    #six{
+        height: auto;
+            width: fit-content;
+            background-color: rgb(35, 14, 71);
+            color: rgb(101, 101, 200)
+    }
+    #text-txt{
+            font-size: 30px;
+            height: auto;
+            width: auto;
+            background-color:rgb(27, 63, 130) ;
+            color: aliceblue;
+            text-align: center;
+    }
+        /* CSS bài 5 */
+        .example1{
+            
+            background-image: url("mountain.jpg");
+               height: 400px;
+               width: 338px;
+                padding-right: 0px;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+                float: left;
+            margin: 10px;
+            position: absolute;
+            bottom: auto;
+            left: 1000px;
+           } 
+         .example2 {
+            background-image: url("mountain_2.jpg");
+            height: 200px;
+            width: 250px;
+            margin: 50px;
+            padding-right: 30px;
+            background-position: left top;
+            background-repeat: repeat;
+         }  
+         .hinh {
+            font-size: 1.5rem;
+            text-align: center;
+         }
+/* css bài 6 */
+.container, .row {
+            width: 100%;
+        }
+        .row:before, .row:after{
+            display: table;
+            content: "";
+        }
+        .row:after{
+            clear: both;
+        }
+        .col1, .col2, .col3 {
+            float: left;
+            width: 25.3333333%;
+            margin: 1%;
+            padding: 1%;
+        }
+/* CSS bài 7 */
+/* .bai7 {
+            margin: 40px;
+            padding: 2em;
+            font: 1em/1.5 'Open Sans', sans-serif;
+            color: #333;
+        }
+blockquote {
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 2em;
+            margin: 0;
+            column-span: all;
+            text-align: left;
+        }
+
+.container {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+        -webkit-column-rule-style: solid;
+        -moz-column-rule-style: solid;
+        column-rule-style: solid;
+        -webkit-column-rule-width: 1px;
+        -moz-column-rule-width: 1px;
+        column-rule-width: 1px;
+        -webkit-column-rule-color: lightblue;
+        -moz-column-rule-color: lightblue;
+        column-rule-color: lightblue;
+} */
+/* CSS bài 8 */
+.item{
+            border-style: solid;
+            border-width: 10px;
+            border-top:#85C226 solid 10px ;
+            border-right: #F7C200 solid 10px ;
+            border-bottom:#4493A0 solid 10px ;
+            border-left:#DF127B solid 10px;
+        text-align: center;
+
+        }
+    .item1{
+            border-style: solid;
+            border-width: 10px;
+            border-top:#85C226 solid 10px ;
+            border-right-style: dashed;
+            border-right-color: #85C226;
+            border-bottom-style:groove;
+            border-bottom-color: #4493A0 ;
+            border-left-style: double;
+            border-left-color: #DF127B;
+            text-align: center;
+    }
+    .item2{
+        border-style: solid;
+        border-width: 10px;
+        text-align: center;
+        border-top:#85C226 solid 5px ;
+        border-right: #F7C200 solid 10px ;
+        border-bottom:#4493A0 solid 15px ;
+        border-left:#DF127B solid 20px;
+    }
+    .item3{
+        border-style: solid;
+        border-width: 10px;
+        text-align: center;
+        border-radius: 0px 30px 70px 20px;
+        border-top-color: #85C226;
+        border-right-color: #F7C200;
+        border-bottom-color: #4493A0 ;
+        border-left-color: #DF127B;
+    }
+    #Adv-Hemisphere{
+
+        text-align: center;
+        border-width: 4px 30px 4px 30px;
+        border-style: groove ridge dashed groove;
+        border-color: #cc0000;
+        border-radius: 100px 100px 0 0;
+    }
+    #round-rectangle{
+        border-style: groove;
+        border: solid 5px;
+        border-color: rgb(162, 229, 28);
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        text-align: center;
+    }
+    #adv-round-rectangle {
+        border-width: 0px 12px 0px 12px;
+        border-style: double;
+        border-color: violet;
+        border-radius: 40px 40px 60px 60px;
+        -moz-border-radius:  40px 40px 60px 60px;
+        -webkit-border-radius:  40px 40px 60px 60px;
+    }
+    .buttonj {
+        border: none;
+        padding: 10px 20px;
+        background-color: violet;
+        color: #fff;
+        height: auto;
+        width: fit-content; 
+        font-size: 20px;
+        border-radius: 8px;   
+    }
+/* CSS bài 10 */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  position: relative;
+  animation: move 2s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    transform: translateX(0) rotate(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px) rotate(180deg) scale(1.5);
+    opacity: 0.5; }
+}
+
+    </style>
+</head>
+<body>
+  <b><u>Bài 2a</u></b>
+    <div id="container" style="width:500px; height:300px; background-color: gray">
+        <h1>A simple div element.</h1>
+        </div>
+        <p style="text-indent:1cm; color:red;text-align:justify;">
+        Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản. Thuộc tính này có thể gán giá
+       trị là tỉ lệ % hoặc một số cụ thể. Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản.
+       Thuộc tính này có thể gán giá trị là tỉ lệ % hoặc một số cụ thể.
+        </p>
+        <p style="text-align:right; color:blue;">
+        Thuộc tính text-align:right; dùng để canh lề phải đoạn văn bản.
+        </p>
+       
+        <p style="text-align:center; color:green;">
+        Thuộc tính text-align:center; dùng để canh giữa lề đoạn văn bản.
+        </p>
+       
+        <div style="text-align:left; color:brown;">
+        Thuộc tính text-align dùng để canh lề trái đoạn văn bản.
+       
+        <p style="text-decoration:underline; color:pink;">
+        Thuộc tính text-decoration:underline; sẽ gạch dưới đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:line-through;color:purple;">
+        Thuộc tính text-decoration:line-through; sẽ gạch ngang đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:overline; color:red;">
+        Thuộc tính text-decoration:overline; sẽ gạch trên đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:blink; text-align:justify; color:blue;text-shadow:4px 4px 8px
+       blue;">
+        Thuộc tính text-decoration:blink; sẽ tạo hiệu ứng blink cho đoạn văn bản + thuộc tính
+       text-shadow:4px 4px 8px blue;tạo bóng cho chữ.
+        </p>   
+    </div>
+        <br>
+        <hr  width="70%" align="center" size="2px" />
+    <b><u>b)</u></b>  
+    <div>
+        <h1 id="first">Colorful Style</h1> 
+        <h1 id="second">Inset Effect</h1>
+        <h1 id="third">Double Font</h1>
+        <h1 id="four">Glossy</h1>
+        <h1 id="five">Grunge Style </h1>
+        <h1 id="six">Neon Glow</h1>
+        <p id="text-txt">Cool CSS Text Effects</p>
+        <hr  width="70%" align="center" size="2px" />
+    </div>
+    <b><u>Bài 3</u></b>
+    <div class="First-Heading">
+
+        <table border="">
+            
+            <tr>
+                <th>Transaction date</th>
+                <th>Payment type and details</th>
+                <th>Paid out</th>
+                <th>Paid in</th>
+                <th>Balance</th>
+            </tr>
+            <tr>
+                <td>12 Jun 09</td>
+                <td>Amazon.com</td>
+                <td>$49.99</td>
+                <td></td>
+                <td>$8411.16</td>
+               
+            </tr>
+            <tr>
+                <td>13 Jun 09</td>
+                <td>Totla</td>
+                <td>$60.00</td>
+                <td></td>
+                <td>$8351.16</td>
+            </tr>
+            <tr>
+                <td>14 Jun 09</td>
+                <td>Whole Foots</td>
+                <td>$75.28</td>
+                <td></td>
+                <td>$8275.88</td>
+            </tr>
+            <tr>
+                <td>14 Jun 09</td>
+                <td>Visa payment</td>
+                <td>$350.00</td>
+                <td></td>
+                <td>$7925.88</td>
+            </tr>
+            <tr>
+                <td>15 Jun 09</td>
+                <td>Cheque 122501</td>
+                <td></td>
+                <td>$1450.00</td>
+                <td>$9375.88</td>
+            </tr>
+            <tr>
+                <td>17 Jun 09</td>
+                <td>Murco</td>
+                <td>$60.00</td>
+                <td></td>
+                <td>$9315.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>Wrox Press</td>
+                <td></td>
+                <td>$1000.00</td>
+                <td>$10315.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>McLellans Bakery</td>
+                <td>$25.00</td>
+                <td></td>
+                <td>$10290.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>Apple store</td>
+                <td>$1350.00</td>
+                <td></td>
+                <td>$8940.88</td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;"></td>
+                <td style="background-color: pink;"></td>
+                <td style="background-color: pink;">$1970.27</td>
+                <td style="background-color: pink;">2450.00</td>
+                <td style="background-color: pink;">$8940.88</td>
+            </tr>
+                <colgroup>
+                <col span="2" style="background-color: blue;">
+                <col style="background-color: green;">
+                <col span="2" style="background-color: pink;">
+                </colgroup>
+            
+        </table>
+    <br><br>
+        <div class="second-heading"></div>   
+            <table>
+                <tr>
+                    <th style="background-color: pink;">Transaction date</th>
+                    <th style="background-color: pink;">Payment type and details</th>
+                    <th style="background-color: pink;">Paid out</th>
+                    <th style="background-color: pink;">Paid in</th>
+                    <th style="background-color: pink;">Balance</th>
+                </tr>
+                <tr>
+                    <td>12 Jun 09</td>
+                    <td>Amazon.com</td>
+                    <td>$49.99</td>
+                    <td></td>
+                    <td>$8411.16</td>
+                   
+                </tr>
+                <tr>
+                    <td>13 Jun 09</td>
+                    <td>Totla</td>
+                    <td>$60.00</td>
+                    <td></td>
+                    <td>$8351.16</td>
+                </tr>
+                <tr>
+                    <td>14 Jun 09</td>
+                    <td>Whole Foots</td>
+                    <td>$75.28</td>
+                    <td></td>
+                    <td>$8275.88</td>
+                </tr>
+                <tr>
+                    <td>14 Jun 09</td>
+                    <td>Visa payment</td>
+                    <td>$350.00</td>
+                    <td></td>
+                    <td>$7925.88</td>
+                </tr>
+                <tr>
+                    <td>15 Jun 09</td>
+                    <td>Cheque 122501</td>
+                    <td></td>
+                    <td>$1450.00</td>
+                    <td>$9375.88</td>
+                </tr>
+                <tr>
+                    <td>17 Jun 09</td>
+                    <td>Murco</td>
+                    <td>$60.00</td>
+                    <td></td>
+                    <td>$9315.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>Wrox Press</td>
+                    <td></td>
+                    <td>$1000.00</td>
+                    <td>$10315.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>McLellans Bakery</td>
+                    <td>$25.00</td>
+                    <td></td>
+                    <td>$10290.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>Apple store</td>
+                    <td>$1350.00</td>
+                    <td></td>
+                    <td>$8940.88</td>
+                </tr>
+                <tr>
+                    <td style="background-color: pink;"></td>
+                    <td style="background-color: pink;"></td>
+                    <td style="background-color: pink;">$1970.27</td>
+                    <td style="background-color: pink;">2450.00</td>
+                    <td style="background-color: pink;">$8940.88</td>
+                </tr>
+            </table>
+            <hr  width="70%" align="center" size="2px" />
+    <b><u>Bài 4</u></b>
+
+    <div class="heading">
+        <table border="">
+            <tr>
+                <th style="text-align: left; background-color: #993738; color: aliceblue;" >Region</th>
+                <th style="text-align: right; background-color: #993738; color: aliceblue;">Percentage</th>
+            </tr>
+            <tr>
+                <td>New England</td>
+                <td style="text-align: right;">12%</td>
+            </tr>
+            <tr>
+                <td>Mid-Atlantic</td>
+                <td style="text-align: right;">19%</td>
+            </tr>
+            <tr>
+                <td>South and Puerto Rico</td>
+                <td style="text-align: right;">15%</td>
+            </tr>
+            <tr>
+                <td>Midwest and Plains States</td>
+                <td style="text-align: right;">12%</td>
+            </tr>
+            <tr>
+                <td>Southwest and Moutain</td>
+                <td style="text-align: right;">10%</td>
+            </tr>
+            <tr>
+                <td>West, Alaska, and Hawaii</td>
+                <td style="text-align: right;">20%</td>
+            </tr>
+            <tr>
+                <td>Abroad</td>
+                <td style="text-align: right;">13%</td>
+            </tr>
+        </table>
+    </div>
+    <hr  width="70%" align="center" size="2px" />
+    <B>BÀI 5:</B>
+    <div class="example1">
+         <div class="hinh">
+             <p>Hình 1</p>
+         </div>
+    </div>
+    <div class="example2">
+     <div class="hinh">
+         <p>Hình 2</p>
+     </div>
+    </div>
+    <hr  width="70%" align="center" size="2px" /> <br><br><b><br><br><br><br></b>
+    <b><u>Bài 6</u></b>
+    <div class="container">
+        <div class="row">
+            <div class="col1">Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+                style sheet language use for 
+                 describing the look and formatingCascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            
+            <div class="col2">Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+                style sheet language use for</div>
+            <div class="col3">Cascading Style Sheets (CSS) is a  style sheet language use for 
+              describing the look and formating  Cascading Style Sheets (CSS) is a  
+              style sheet language use for 
+                 describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for </div>
+                </div>
+        <div class="row">       
+            <div class="col1">Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            <div class="col2">Cascading Style Sheets (CSS) is a style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                 describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            <div class="col3">Cascading Style Sheets (CSS) is a style sheet language use for 
+              describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                describing the look and formating  Cascading Style Sheets (CSS) is a 
+                 style sheet language use for</div>
+            </div> 
+
+<hr  width="70%" align="center" size="2px" /> </b><br>
+<b><u>Bài 7</u></b>
+<div class="bai7">
+    <div class="container">
+    <blockquote> 
+        <p> <b> MH17: crash: Russia vetoes UN resolution for international tribunal </b></p> </blockquote>
+     <p>They were to venture, by an untried way, into unknown realms where no mortal had been before; they were to entrust their lives to a frail craft whose capabilities had never yet been tested, and at a giddy height they were to soar aloft with an open fire, which at any moment might set light to the inflammable balloon and hurl them to destruction.</p>
+  
+     <p>Wild indeed was the applause of the crowd as the mighty craft, after due inflation, rose majestically into the sky, carrying with it its two brave voyagers—</p>
+  
+
+  
+    <p>and with what anxiety was its course followed as, rising rapidly to a height of 3000 feet, it drifted away on an upper current which bore it right over the city of Paris. The travellers themselves experienced various excitements during their adventurous trip. They had constantly to stir the fire and feed it with fresh fuel; they had also with wet sponges continually to extinguish the flames when the light fabric from time to time ignited. At one period they feared descending into the river or on the house-tops, at another a sharp shock gave them the impression that their balloon had burst. But they came safely in the end through all perils and alarms, descending quietly, after a voyage of twenty-five minutes’ duration, five miles from their starting-place.</p>
+    </div>
+</div>
+<hr  width="70%" align="center" size="2px" /> </b><br>
+<b><u>Bài 8</u></b>
+<b>8.a)</b>
+<div class="item"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.b)</b>
+<div class="item1"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.c)</b>   
+
+<div class="item2"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.d)</b>   
+<div class="item3"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.e)</b> 
+
+<div id="Adv-Hemisphere"> 
+<p>ITEM4</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.f </b>
+
+<div id="round-rectangle">
+<p>Round</p>
+<p>Rectangle</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.g</b>
+<div id="adv-round-rectangle" style="text-align: center;">
+    <p>Advanced Round</p>
+    <p>Rectangle</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.j</b>
+<div class="buttonj" style="text-align: center;">
+    <header>
+        <p> Subscribe Now</p>
+    </header>
+</div>
+<!--  -->
+
+</b><br><br><br><br><br>
+<hr  width="70%" align="center" size="2px" /> 
+<b><u>Bài 10</u></b>
+
+<div class="box"></div>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* bài 2 và bài 3, em sử dụng inline css */
+     /* CSS bài 4 */
+         table {
+  border-collapse: collapse;
+  width: 100;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+        #first{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 0px 10px yellow;
+
+        }
+        #second {
+            height: auto;
+            width: fit-content;
+            background-color: aquamarine;
+            color: darkblue;
+        }
+        #third{
+            color: #151315;
+
+            text-shadow: 0px -20px 1px #77325a
+        }
+        }
+        #four{
+            color: yellowgreen;
+            text-shadow: 2px 0px 10px yellow;
+        }
+        #five {
+            height: auto;
+            width: fit-content;
+            background-color: #151315;
+            color: rgb(145, 145, 40);
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);;
+        }
+    #six{
+        height: auto;
+            width: fit-content;
+            background-color: rgb(35, 14, 71);
+            color: rgb(101, 101, 200)
+    }
+    #text-txt{
+            font-size: 30px;
+            height: auto;
+            width: auto;
+            background-color:rgb(27, 63, 130) ;
+            color: aliceblue;
+            text-align: center;
+    }
+        /* CSS bài 5 */
+        .example1{
+            
+            background-image: url("mountain.jpg");
+               height: 400px;
+               width: 338px;
+                padding-right: 0px;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+                float: left;
+            margin: 10px;
+            position: absolute;
+            bottom: auto;
+            left: 1000px;
+           } 
+         .example2 {
+            background-image: url("mountain_2.jpg");
+            height: 200px;
+            width: 250px;
+            margin: 50px;
+            padding-right: 30px;
+            background-position: left top;
+            background-repeat: repeat;
+         }  
+         .hinh {
+            font-size: 1.5rem;
+            text-align: center;
+         }
+/* css bài 6 */
+.container, .row {
+            width: 100%;
+        }
+        .row:before, .row:after{
+            display: table;
+            content: "";
+        }
+        .row:after{
+            clear: both;
+        }
+        .col1, .col2, .col3 {
+            float: left;
+            width: 25.3333333%;
+            margin: 1%;
+            padding: 1%;
+        }
+/* CSS bài 7 */
+/* .bai7 {
+            margin: 40px;
+            padding: 2em;
+            font: 1em/1.5 'Open Sans', sans-serif;
+            color: #333;
+        }
+blockquote {
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 2em;
+            margin: 0;
+            column-span: all;
+            text-align: left;
+        }
+
+.container {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+        -webkit-column-rule-style: solid;
+        -moz-column-rule-style: solid;
+        column-rule-style: solid;
+        -webkit-column-rule-width: 1px;
+        -moz-column-rule-width: 1px;
+        column-rule-width: 1px;
+        -webkit-column-rule-color: lightblue;
+        -moz-column-rule-color: lightblue;
+        column-rule-color: lightblue;
+} */
+/* CSS bài 8 */
+.item{
+            border-style: solid;
+            border-width: 10px;
+            border-top:#85C226 solid 10px ;
+            border-right: #F7C200 solid 10px ;
+            border-bottom:#4493A0 solid 10px ;
+            border-left:#DF127B solid 10px;
+        text-align: center;
+
+        }
+    .item1{
+            border-style: solid;
+            border-width: 10px;
+            border-top:#85C226 solid 10px ;
+            border-right-style: dashed;
+            border-right-color: #85C226;
+            border-bottom-style:groove;
+            border-bottom-color: #4493A0 ;
+            border-left-style: double;
+            border-left-color: #DF127B;
+            text-align: center;
+    }
+    .item2{
+        border-style: solid;
+        border-width: 10px;
+        text-align: center;
+        border-top:#85C226 solid 5px ;
+        border-right: #F7C200 solid 10px ;
+        border-bottom:#4493A0 solid 15px ;
+        border-left:#DF127B solid 20px;
+    }
+    .item3{
+        border-style: solid;
+        border-width: 10px;
+        text-align: center;
+        border-radius: 0px 30px 70px 20px;
+        border-top-color: #85C226;
+        border-right-color: #F7C200;
+        border-bottom-color: #4493A0 ;
+        border-left-color: #DF127B;
+    }
+    #Adv-Hemisphere{
+
+        text-align: center;
+        border-width: 4px 30px 4px 30px;
+        border-style: groove ridge dashed groove;
+        border-color: #cc0000;
+        border-radius: 100px 100px 0 0;
+    }
+    #round-rectangle{
+        border-style: groove;
+        border: solid 5px;
+        border-color: rgb(162, 229, 28);
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        text-align: center;
+    }
+    #adv-round-rectangle {
+        border-width: 0px 12px 0px 12px;
+        border-style: double;
+        border-color: violet;
+        border-radius: 40px 40px 60px 60px;
+        -moz-border-radius:  40px 40px 60px 60px;
+        -webkit-border-radius:  40px 40px 60px 60px;
+    }
+    .buttonj {
+        border: none;
+        padding: 10px 20px;
+        background-color: violet;
+        color: #fff;
+        height: auto;
+        width: fit-content; 
+        font-size: 20px;
+        border-radius: 8px;   
+    }
+/* CSS bài 10 */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  position: relative;
+  animation: move 2s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    transform: translateX(0) rotate(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px) rotate(180deg) scale(1.5);
+    opacity: 0.5; }
+}
+
+    </style>
+</head>
+<body>
+  <b><u>Bài 2a</u></b>
+    <div id="container" style="width:500px; height:300px; background-color: gray">
+        <h1>A simple div element.</h1>
+        </div>
+        <p style="text-indent:1cm; color:red;text-align:justify;">
+        Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản. Thuộc tính này có thể gán giá
+       trị là tỉ lệ % hoặc một số cụ thể. Thiết lập chế độ độ thụt đầu dòng cho 1 đoạn văn bản.
+       Thuộc tính này có thể gán giá trị là tỉ lệ % hoặc một số cụ thể.
+        </p>
+        <p style="text-align:right; color:blue;">
+        Thuộc tính text-align:right; dùng để canh lề phải đoạn văn bản.
+        </p>
+       
+        <p style="text-align:center; color:green;">
+        Thuộc tính text-align:center; dùng để canh giữa lề đoạn văn bản.
+        </p>
+       
+        <div style="text-align:left; color:brown;">
+        Thuộc tính text-align dùng để canh lề trái đoạn văn bản.
+       
+        <p style="text-decoration:underline; color:pink;">
+        Thuộc tính text-decoration:underline; sẽ gạch dưới đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:line-through;color:purple;">
+        Thuộc tính text-decoration:line-through; sẽ gạch ngang đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:overline; color:red;">
+        Thuộc tính text-decoration:overline; sẽ gạch trên đoạn văn bản.
+        </p>
+       
+        <p style="text-decoration:blink; text-align:justify; color:blue;text-shadow:4px 4px 8px
+       blue;">
+        Thuộc tính text-decoration:blink; sẽ tạo hiệu ứng blink cho đoạn văn bản + thuộc tính
+       text-shadow:4px 4px 8px blue;tạo bóng cho chữ.
+        </p>   
+    </div>
+        <br>
+        <hr  width="70%" align="center" size="2px" />
+    <b><u>b)</u></b>  
+    <div>
+        <h1 id="first">Colorful Style</h1> 
+        <h1 id="second">Inset Effect</h1>
+        <h1 id="third">Double Font</h1>
+        <h1 id="four">Glossy</h1>
+        <h1 id="five">Grunge Style </h1>
+        <h1 id="six">Neon Glow</h1>
+        <p id="text-txt">Cool CSS Text Effects</p>
+        <hr  width="70%" align="center" size="2px" />
+    </div>
+    <b><u>Bài 3</u></b>
+    <div class="First-Heading">
+
+        <table border="">
+            
+            <tr>
+                <th>Transaction date</th>
+                <th>Payment type and details</th>
+                <th>Paid out</th>
+                <th>Paid in</th>
+                <th>Balance</th>
+            </tr>
+            <tr>
+                <td>12 Jun 09</td>
+                <td>Amazon.com</td>
+                <td>$49.99</td>
+                <td></td>
+                <td>$8411.16</td>
+               
+            </tr>
+            <tr>
+                <td>13 Jun 09</td>
+                <td>Totla</td>
+                <td>$60.00</td>
+                <td></td>
+                <td>$8351.16</td>
+            </tr>
+            <tr>
+                <td>14 Jun 09</td>
+                <td>Whole Foots</td>
+                <td>$75.28</td>
+                <td></td>
+                <td>$8275.88</td>
+            </tr>
+            <tr>
+                <td>14 Jun 09</td>
+                <td>Visa payment</td>
+                <td>$350.00</td>
+                <td></td>
+                <td>$7925.88</td>
+            </tr>
+            <tr>
+                <td>15 Jun 09</td>
+                <td>Cheque 122501</td>
+                <td></td>
+                <td>$1450.00</td>
+                <td>$9375.88</td>
+            </tr>
+            <tr>
+                <td>17 Jun 09</td>
+                <td>Murco</td>
+                <td>$60.00</td>
+                <td></td>
+                <td>$9315.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>Wrox Press</td>
+                <td></td>
+                <td>$1000.00</td>
+                <td>$10315.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>McLellans Bakery</td>
+                <td>$25.00</td>
+                <td></td>
+                <td>$10290.88</td>
+            </tr>
+            <tr>
+                <td>18 Jun 09</td>
+                <td>Apple store</td>
+                <td>$1350.00</td>
+                <td></td>
+                <td>$8940.88</td>
+            </tr>
+            <tr>
+                <td style="background-color: pink;"></td>
+                <td style="background-color: pink;"></td>
+                <td style="background-color: pink;">$1970.27</td>
+                <td style="background-color: pink;">2450.00</td>
+                <td style="background-color: pink;">$8940.88</td>
+            </tr>
+                <colgroup>
+                <col span="2" style="background-color: blue;">
+                <col style="background-color: green;">
+                <col span="2" style="background-color: pink;">
+                </colgroup>
+            
+        </table>
+    <br><br>
+        <div class="second-heading"></div>   
+            <table>
+                <tr>
+                    <th style="background-color: pink;">Transaction date</th>
+                    <th style="background-color: pink;">Payment type and details</th>
+                    <th style="background-color: pink;">Paid out</th>
+                    <th style="background-color: pink;">Paid in</th>
+                    <th style="background-color: pink;">Balance</th>
+                </tr>
+                <tr>
+                    <td>12 Jun 09</td>
+                    <td>Amazon.com</td>
+                    <td>$49.99</td>
+                    <td></td>
+                    <td>$8411.16</td>
+                   
+                </tr>
+                <tr>
+                    <td>13 Jun 09</td>
+                    <td>Totla</td>
+                    <td>$60.00</td>
+                    <td></td>
+                    <td>$8351.16</td>
+                </tr>
+                <tr>
+                    <td>14 Jun 09</td>
+                    <td>Whole Foots</td>
+                    <td>$75.28</td>
+                    <td></td>
+                    <td>$8275.88</td>
+                </tr>
+                <tr>
+                    <td>14 Jun 09</td>
+                    <td>Visa payment</td>
+                    <td>$350.00</td>
+                    <td></td>
+                    <td>$7925.88</td>
+                </tr>
+                <tr>
+                    <td>15 Jun 09</td>
+                    <td>Cheque 122501</td>
+                    <td></td>
+                    <td>$1450.00</td>
+                    <td>$9375.88</td>
+                </tr>
+                <tr>
+                    <td>17 Jun 09</td>
+                    <td>Murco</td>
+                    <td>$60.00</td>
+                    <td></td>
+                    <td>$9315.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>Wrox Press</td>
+                    <td></td>
+                    <td>$1000.00</td>
+                    <td>$10315.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>McLellans Bakery</td>
+                    <td>$25.00</td>
+                    <td></td>
+                    <td>$10290.88</td>
+                </tr>
+                <tr>
+                    <td>18 Jun 09</td>
+                    <td>Apple store</td>
+                    <td>$1350.00</td>
+                    <td></td>
+                    <td>$8940.88</td>
+                </tr>
+                <tr>
+                    <td style="background-color: pink;"></td>
+                    <td style="background-color: pink;"></td>
+                    <td style="background-color: pink;">$1970.27</td>
+                    <td style="background-color: pink;">2450.00</td>
+                    <td style="background-color: pink;">$8940.88</td>
+                </tr>
+            </table>
+            <hr  width="70%" align="center" size="2px" />
+    <b><u>Bài 4</u></b>
+
+    <div class="heading">
+        <table border="">
+            <tr>
+                <th style="text-align: left; background-color: #993738; color: aliceblue;" >Region</th>
+                <th style="text-align: right; background-color: #993738; color: aliceblue;">Percentage</th>
+            </tr>
+            <tr>
+                <td>New England</td>
+                <td style="text-align: right;">12%</td>
+            </tr>
+            <tr>
+                <td>Mid-Atlantic</td>
+                <td style="text-align: right;">19%</td>
+            </tr>
+            <tr>
+                <td>South and Puerto Rico</td>
+                <td style="text-align: right;">15%</td>
+            </tr>
+            <tr>
+                <td>Midwest and Plains States</td>
+                <td style="text-align: right;">12%</td>
+            </tr>
+            <tr>
+                <td>Southwest and Moutain</td>
+                <td style="text-align: right;">10%</td>
+            </tr>
+            <tr>
+                <td>West, Alaska, and Hawaii</td>
+                <td style="text-align: right;">20%</td>
+            </tr>
+            <tr>
+                <td>Abroad</td>
+                <td style="text-align: right;">13%</td>
+            </tr>
+        </table>
+    </div>
+    <hr  width="70%" align="center" size="2px" />
+    <B>BÀI 5:</B>
+    <div class="example1">
+         <div class="hinh">
+             <p>Hình 1</p>
+         </div>
+    </div>
+    <div class="example2">
+     <div class="hinh">
+         <p>Hình 2</p>
+     </div>
+    </div>
+    <hr  width="70%" align="center" size="2px" /> <br><br><b><br><br><br><br></b>
+    <b><u>Bài 6</u></b>
+    <div class="container">
+        <div class="row">
+            <div class="col1">Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+                style sheet language use for 
+                 describing the look and formatingCascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            
+            <div class="col2">Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+                style sheet language use for</div>
+            <div class="col3">Cascading Style Sheets (CSS) is a  style sheet language use for 
+              describing the look and formating  Cascading Style Sheets (CSS) is a  
+              style sheet language use for 
+                 describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for </div>
+                </div>
+        <div class="row">       
+            <div class="col1">Cascading Style Sheets (CSS) is a  style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            <div class="col2">Cascading Style Sheets (CSS) is a style sheet language use for 
+               describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                 describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                 describing the look and formating  Cascading Style Sheets (CSS) is a 
+                  style sheet language use for</div>
+            <div class="col3">Cascading Style Sheets (CSS) is a style sheet language use for 
+              describing the look and formating  Cascading Style Sheets (CSS) is a 
+               style sheet language use for 
+                describing the look and formating Cascading Style Sheets (CSS) is a  style sheet language use for 
+                describing the look and formating  Cascading Style Sheets (CSS) is a 
+                 style sheet language use for</div>
+            </div> 
+
+<hr  width="70%" align="center" size="2px" /> </b><br>
+<b><u>Bài 7</u></b>
+<div class="bai7">
+    <div class="container">
+    <blockquote> 
+        <p> <b> MH17: crash: Russia vetoes UN resolution for international tribunal </b></p> </blockquote>
+     <p>They were to venture, by an untried way, into unknown realms where no mortal had been before; they were to entrust their lives to a frail craft whose capabilities had never yet been tested, and at a giddy height they were to soar aloft with an open fire, which at any moment might set light to the inflammable balloon and hurl them to destruction.</p>
+  
+     <p>Wild indeed was the applause of the crowd as the mighty craft, after due inflation, rose majestically into the sky, carrying with it its two brave voyagers—</p>
+  
+
+  
+    <p>and with what anxiety was its course followed as, rising rapidly to a height of 3000 feet, it drifted away on an upper current which bore it right over the city of Paris. The travellers themselves experienced various excitements during their adventurous trip. They had constantly to stir the fire and feed it with fresh fuel; they had also with wet sponges continually to extinguish the flames when the light fabric from time to time ignited. At one period they feared descending into the river or on the house-tops, at another a sharp shock gave them the impression that their balloon had burst. But they came safely in the end through all perils and alarms, descending quietly, after a voyage of twenty-five minutes’ duration, five miles from their starting-place.</p>
+    </div>
+</div>
+<hr  width="70%" align="center" size="2px" /> </b><br>
+<b><u>Bài 8</u></b>
+<b>8.a)</b>
+<div class="item"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.b)</b>
+<div class="item1"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.c)</b>   
+
+<div class="item2"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.d)</b>   
+<div class="item3"> <p>Here the top border is green(#85C226) in color. </p>
+<p>right border is yellow(#F7C200).</p>
+<p>the bottom has blue(#4493A0).</p>
+<p>and  Left border is pink(#DF127B) in color.</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.e)</b> 
+
+<div id="Adv-Hemisphere"> 
+<p>ITEM4</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.f </b>
+
+<div id="round-rectangle">
+<p>Round</p>
+<p>Rectangle</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.g</b>
+<div id="adv-round-rectangle" style="text-align: center;">
+    <p>Advanced Round</p>
+    <p>Rectangle</p>
+</div>
+<!--  -->
+<br><br>
+<b>8.j</b>
+<div class="buttonj" style="text-align: center;">
+    <header>
+        <p> Subscribe Now</p>
+    </header>
+</div>
+<!--  -->
+
+</b><br><br><br><br><br>
+<hr  width="70%" align="center" size="2px" /> 
+<b><u>Bài 10</u></b>
+
+<div class="box"></div>
+</body>
+>>>>>>> d3031441513745270ebeff3074b7ea9b653665ad
+</html>
