@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu-20{
+            display: block;
+            position: absolute;
+	        flex-direction: column;
+	        background: #0d90df;
+            color: #ffffff;
+            list-style: none;
+            width: 500px;
+            height: 300px;
+            top: 50px;
+
+        }
+        .menu-20 ul {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+        
+}
+.menu-20 li {
+    font-size: 20px;
+    font-weight: bold;
+	width: 200px;
+    margin: 5px;
+    padding: 5px;
+    line-height: 1.3em;
+    border: 2px dashed;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px
+    rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    text-align: center;
+}
+
+.menu-20 li:hover {
+	background-color: #ccc;
+}
+
+.menu-20 li a {
+	color: #333;
+	text-decoration: none;
+}
+.menu-20 a:Link {
+            color: #38085a;
+            text-decoration: none;    
+}
+.menu-20 nav ul ul li a {
+            height: 50px;
+            margin: 0;
+            padding: 10px;
+            text-decoration: none;
+            float: left;
+}
+menu.20  ul li {
+    height: 50px;
+    width: 50px;
+}
+ .menu-20   li>ul {
+        display: none;
+    }
+ .menu-20  li:hover ul{
+        display: block;
+        position: absolute;
+        left: 220px;
+        color: #1d0851;
+        margin: 0;
+        width: 50%;
+    }
+ .menu-20 li:hover ul li a:Link{
+        display: block;
+        margin-left: 30px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <b><u>Bài 20:</u></b>
+    <div class="wrapper">
+        <header>
+        <ul class="menu-20">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li>
+            <a href="#">Products</a>
+            <ul>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">Web &amp; User Interface Design</a></li>
+              <li><a href="#">Illustration</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+      </div>     
+</body>
+</html

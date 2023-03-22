@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color:rgb(33, 33, 54);  
+        }
+        li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 20px;
+            font-size: 20px;
+            height: 100px;
+            color:  rgb(139, 233, 139);
+        }
+        a:Link {
+            color: #fff;
+            text-decoration: none;    
+        }
+        a:hover{
+            color: #fff;
+            background-color: rgb(139, 233, 139);
+            text-decoration: none;
+        }
+        nav ul ul li a {
+            height: auto;
+            margin: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            float: left;
+}
+nav ul li {
+    height: 50px;
+    width: 50px;
+    color: #fff;
+}
+    li>ul {
+        display: none;
+
+    }
+    li:hover ul{
+        display: block;
+        position: absolute;
+        left: 200px;
+        color: #fff;
+        margin: 0;
+    }
+    li:hover ul li a:Link{
+        display: block;
+        margin-left: 30px;
+    }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <b><u style="color: #fff;">Bài 19</u></b>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Introdution>></a></li>
+            <li><a href="#">Portfolio>></a>
+                <ul>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Web & User Interface Design</a></li>
+                    <li><a href="">lllustration</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
